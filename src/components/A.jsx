@@ -1,5 +1,5 @@
-const A = () => {
-  return <div>Hello, React!</div>;
-};
+import React from "react";
 
-export default A;
+export default function A() {
+  return <div>Hello, React!!</div>;
+}

@@ -1,5 +1,5 @@
-const Card = ({ color }) => {
-  return <div className={`${color} w-24 h-24 m-4`}></div>;
-};
+import React from "react";
 
-export default Card;
+export default function Card({ color }) {
+  return <div className={`${color} w-24 h-24 m-4`}></div>;
+}

@@ -10,7 +10,7 @@ const colors = [
   "bg-main",
 ];
 
-const C = () => {
+export default function C() {
   return (
     <div className="flex">
       {colors.map((v, i) => {
@@ -18,6 +18,4 @@ const C = () => {
       })}
     </div>
   );
-};
-
-export default C;
+}

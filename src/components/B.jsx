@@ -1,17 +1,18 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-const B = () => {
+export default function B() {
   const [count, setCount] = useState(0);
 
   const onClickPlus = () => {
     setCount(count + 1);
   };
+
   const onClickMinus = () => {
     setCount(count - 1);
   };
 
   return (
-    <div className="flex items-center">
+    <div className=" flex items-center">
       <button className="btn-style" onClick={onClickMinus}>
         -
       </button>
@@ -21,6 +22,4 @@ const B = () => {
       </button>
     </div>
   );
-};
-
-export default B;
+}
